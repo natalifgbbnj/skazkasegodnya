@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Сказка про сегодня</title>
+<meta name="description" content="Вечерняя сказка о вашем ребёнке из рассказа о его дне. Telegram-бот, озвучка и книга месяца.">
+<link rel="icon" href="icon.png"><meta property="og:image" content="https://skazkasegodnya.ru/og.png">
+<style>
+:root{--ink:#342c28;--muted:#6d625b;--line:#e8e1d9;--paper:#fffdf9;--night:#2f2940;--purple:#75608e;--gold:#c9a86a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+h1,h2,h3{font-family:Georgia,'Times New Roman',serif;font-weight:normal;line-height:1.2;margin:0 0 .5em}
+a{color:var(--purple)}
+.wrap{max-width:880px;margin:0 auto;padding:0 20px}
+header{background:var(--night);color:#f6f0e6;padding:72px 0 64px;text-align:center}
+header img{width:88px;height:88px;border-radius:24px}
+header h1{font-size:44px;margin-top:20px}
+header p{max-width:560px;margin:0 auto 28px;color:#d9d0e4;font-size:19px}
+.btn{display:inline-block;background:var(--gold);color:var(--night);text-decoration:none;padding:14px 28px;border-radius:40px;font-weight:600}
+section{padding:56px 0;border-bottom:1px solid var(--line)}
+h2{font-size:32px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:24px}
+.card{background:white;border:1px solid var(--line);border-radius:18px;padding:24px}
+.card h3{font-size:21px}
+.card p{margin:0;color:var(--muted)}
+.num{font-family:Georgia,serif;color:var(--purple);font-size:28px}
+.plans{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:24px}
+.price{font-family:Georgia,serif;font-size:34px;margin:6px 0 10px}
+.plans .card.main{border:2px solid var(--purple)}
+ul{padding-left:20px;margin:0;color:var(--muted)}
+details{border:1px solid var(--line);border-radius:14px;background:white;padding:14px 20px;margin-top:12px}
+summary{cursor:pointer;font-weight:600}
+.offer{font-size:15px;color:var(--ink)}
+.offer h3{font-size:19px;margin-top:22px}
+footer{padding:40px 0 60px;color:var(--muted);font-size:15px}
+.req td{padding:4px 16px 4px 0;vertical-align:top}
+@media (max-width:720px){header h1{font-size:34px}.steps,.plans{grid-template-columns:1fr}section{padding:40px 0}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <img src="icon.png" alt="">
+    <h1>Сказка про сегодня</h1>
+    <p>Расскажите, как прошёл день вашего ребёнка, и вечером у вас будет сказка, в которой он главный герой.</p>
+    <a class="btn" href="https://t.me/Skazka_segodnya_bot">Открыть в Telegram</a>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>Как это работает</h2>
+    <div class="steps">
+      <div class="card"><div class="num">1</div><h3>Вы рассказываете</h3><p>Парой фраз или голосовым: что было сегодня, что порадовало, что далось трудно.</p></div>
+      <div class="card"><div class="num">2</div><h3>Сказка сочиняется</h3><p>За минуту день превращается в добрую историю с именем ребёнка, обложкой и вопросом для разговора перед сном.</p></div>
+      <div class="card"><div class="num">3</div><h3>Складывается книга</h3><p>Каждые десять сказок становятся главой, а раз в месяц все сказки приходят одной книгой.</p></div>
+    </div>
+    <p style="margin-top:28px;color:var(--muted)">Сказку можно озвучить или прочитать своим голосом для бабушки, которая далеко.</p>
+  </div>
+</section>
+
+<section id="prices">
+  <div class="wrap">
+    <h2>Тарифы</h2>
+    <div class="plans">
+      <div class="card"><h3>Бесплатно</h3><div class="price">0 ₽</div><ul><li>Первая сказка</li><li>Ещё 3 сказки каждый месяц</li><li>Сказка в подарок за приглашённого друга</li></ul></div>
+      <div class="card main"><h3>Каждый вечер</h3><div class="price">690 ₽<span style="font-size:17px;color:var(--muted)"> / месяц</span></div><ul><li>Сказка каждый вечер, до 31 в месяц</li><li>Озвучка нежным голосом</li><li>Книга месяца в PDF</li></ul></div>
+      <div class="card"><h3>Скоро</h3><div class="price" style="font-size:24px">разовые покупки</div><ul><li>Сказка в подарок другой семье</li><li>Поздравление от любимой игрушки</li><li>Книга года</li></ul></div>
+    </div>
+    <p style="margin-top:24px;color:var(--muted)">Оплата картой или через СБП на защищённой странице Робокассы. Доступ открывается в боте сразу после оплаты. Каждый период оплачивается отдельно, без автоматических списаний.</p>
+  </div>
+</section>
+
+<section id="offer">
+  <div class="wrap offer">
+    <h2>Публичная оферта</h2>
+    <p>Редакция от 25 сентября 2026 года. <a href="privacy.html">Политика конфиденциальности</a>.</p>
+    <details>
+      <summary>Читать полностью</summary>
+      <h3>1. Общие положения</h3>
+      <p>1.1. Индивидуальный предприниматель Красюк Наталья Михайловна (далее Исполнитель) предлагает любому дееспособному лицу (далее Пользователь) заключить договор на оказание услуг на условиях настоящей оферты.</p>
+      <p>1.2. Акцептом оферты является оплата выбранного тарифа. С момента оплаты договор считается заключённым.</p>
+      <h3>2. Предмет договора</h3>
+      <p>2.1. Исполнитель предоставляет Пользователю доступ к сервису «Сказка про сегодня» в Telegram-боте @Skazka_segodnya_bot: создание персональных текстовых сказок по рассказу Пользователя, обложки, озвучка синтезированным голосом, библиотека сказок и книга месяца в электронном виде.</p>
+      <p>2.2. Сказки создаются с помощью программ генерации текста и изображений. Исполнитель проверяет их автоматическими фильтрами, но каждая сказка уникальна и может отличаться от ожиданий Пользователя.</p>
+      <h3>3. Стоимость и порядок оплаты</h3>
+      <p>3.1. Стоимость подписки «Каждый вечер» 690 рублей за 31 день. По подписке доступно до 31 сказки в календарный месяц. Без оплаты доступны первая сказка и ещё 3 сказки в календарный месяц. Цены разовых покупок указываются в боте перед оплатой.</p>
+      <p>3.2. Оплата производится через платёжный сервис Робокасса банковской картой или через СБП. Кассовый чек направляется в электронном виде.</p>
+      <p>3.3. Период доступа начинается с момента подтверждения оплаты. Автоматическое продление не производится.</p>
+      <h3>4. Права и обязанности</h3>
+      <p>4.1. Исполнитель обязуется предоставить доступ к сервису в течение оплаченного периода и поддерживать его работоспособность, за исключением времени технических работ.</p>
+      <p>4.2. Пользователь обязуется не передавать в рассказах чужие персональные данные без согласия их владельцев и не использовать сервис для создания материалов, нарушающих закон.</p>
+      <h3>5. Возврат денежных средств</h3>
+      <p>5.1. Если после оплаты Пользователь не создал ни одной сказки, деньги возвращаются полностью по его запросу в течение 14 дней с момента оплаты.</p>
+      <p>5.2. Если сервис был недоступен по вине Исполнителя более 3 дней подряд, Исполнитель продлевает доступ на соответствующий срок или возвращает часть оплаты пропорционально по выбору Пользователя.</p>
+      <p>5.3. Запрос на возврат направляется на контакты, указанные ниже. Возврат производится на тот же способ оплаты в течение 10 рабочих дней.</p>
+      <h3>6. Персональные данные</h3>
+      <p>6.1. Исполнитель хранит имя ребёнка, рассказы и сказки только для работы сервиса и не передаёт их третьим лицам, кроме программ генерации, которые обрабатывают текст для создания сказки.</p>
+      <p>6.2. Пользователь может удалить все свои данные командой /forget в боте. Подробнее: <a href="privacy.html">Политика конфиденциальности</a>.</p>
+      <h3>7. Прочее</h3>
+      <p>7.1. Исполнитель вправе изменять оферту. Новая редакция действует для оплат, совершённых после её публикации.</p>
+      <p>7.2. Споры решаются путём переговоров, а при недостижении согласия в соответствии с законодательством Российской Федерации.</p>
+    </details>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <h3 style="color:var(--ink)">Контакты и реквизиты</h3>
+    <table class="req">
+      <tr><td>Исполнитель</td><td>ИП Красюк Наталья Михайловна</td></tr>
+      <tr><td>ИНН</td><td>772883360314</td></tr>
+      <tr><td>ОГРНИП</td><td>321774600190616</td></tr>
+      <tr><td>Почта</td><td><a href="mailto:deskrelay24@gmail.com">deskrelay24@gmail.com</a></td></tr>
+      <tr><td>Документы</td><td><a href="#offer">Оферта</a> · <a href="privacy.html">Политика конфиденциальности</a></td></tr>
+      <tr><td>Поддержка</td><td>в боте <a href="https://t.me/Skazka_segodnya_bot">@Skazka_segodnya_bot</a>, кнопка «Помощь»</td></tr>
+    </table>
+    <p style="margin-top:24px">© 2026 Сказка про сегодня</p>
+  </div>
+</footer>
+</body>
+</html>
