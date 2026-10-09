@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://skazkasegodnya.ru/</loc><lastmod>2026-10-09</lastmod><priority>1.0</priority></url>
-  <url><loc>https://skazkasegodnya.ru/guide.html</loc><lastmod>2026-10-09</lastmod><priority>0.8</priority></url>
-  <url><loc>https://skazkasegodnya.ru/imennaya-skazka.html</loc><lastmod>2026-10-09</lastmod><priority>0.8</priority></url>
-  <url><loc>https://skazkasegodnya.ru/skazka-v-podarok.html</loc><lastmod>2026-10-09</lastmod><priority>0.8</priority></url>
-  <url><loc>https://skazkasegodnya.ru/skazki-na-noch-pro-rebenka.html</loc><lastmod>2026-10-09</lastmod><priority>0.8</priority></url>
-  <url><loc>https://skazkasegodnya.ru/skazka-neiroset.html</loc><lastmod>2026-10-09</lastmod><priority>0.8</priority></url>
-  <url><loc>https://skazkasegodnya.ru/privacy.html</loc><lastmod>2026-10-09</lastmod><priority>0.8</priority></url>
+  <url><loc>http://skazkasegodnya.ru/</loc><lastmod>2026-10-09</lastmod><priority>1.0</priority></url>
+  <url><loc>http://skazkasegodnya.ru/imennaya-kniga.html</loc><lastmod>2026-10-09</lastmod><priority>0.8</priority></url>
+  <url><loc>http://skazkasegodnya.ru/skazka-v-podarok.html</loc><lastmod>2026-10-09</lastmod><priority>0.8</priority></url>
+  <url><loc>http://skazkasegodnya.ru/podarok-rebenku-na-novyj-god.html</loc><lastmod>2026-10-09</lastmod><priority>0.8</priority></url>
+  <url><loc>http://skazkasegodnya.ru/podarok-rebenku-na-den-rozhdeniya.html</loc><lastmod>2026-10-09</lastmod><priority>0.8</priority></url>
+  <url><loc>http://skazkasegodnya.ru/chto-podarit-rebenku.html</loc><lastmod>2026-10-09</lastmod><priority>0.8</priority></url>
+  <url><loc>http://skazkasegodnya.ru/imennaya-skazka.html</loc><lastmod>2026-10-09</lastmod><priority>0.8</priority></url>
+  <url><loc>http://skazkasegodnya.ru/guide.html</loc><lastmod>2026-10-09</lastmod><priority>0.8</priority></url>
+  <url><loc>http://skazkasegodnya.ru/skazki-na-noch-pro-rebenka.html</loc><lastmod>2026-10-09</lastmod><priority>0.8</priority></url>
+  <url><loc>http://skazkasegodnya.ru/skazka-neiroset.html</loc><lastmod>2026-10-09</lastmod><priority>0.8</priority></url>
+  <url><loc>http://skazkasegodnya.ru/privacy.html</loc><lastmod>2026-10-09</lastmod><priority>0.8</priority></url>
 </urlset>
