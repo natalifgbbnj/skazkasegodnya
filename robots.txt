@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /logo-variants.html
+Disallow: /logo-dreamy.html
+
+Sitemap: https://skazkasegodnya.ru/sitemap.xml
