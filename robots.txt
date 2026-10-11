@@ -3,4 +3,4 @@ Allow: /
 Disallow: /logo-variants.html
 Disallow: /logo-dreamy.html
 
-Sitemap: http://skazkasegodnya.ru/sitemap.xml
+Sitemap: https://skazkasegodnya.ru/sitemap.xml
