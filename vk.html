@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Сказка про сегодня</title>
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<!-- Вход из VK Рекламы (13.10): сразу открываем бота с меткой p_vk, чтобы семьи из VK было видно в статистике. -->
+<script type="text/javascript">
+var _tmr = window._tmr || (window._tmr = []);
+_tmr.push({id: "3801021", type: "pageView", start: (new Date()).getTime()});
+_tmr.push({type: "reachGoal", id: 3801021, goal: "bot_click"});
+(function (d, w, id) {
+if (d.getElementById(id)) return;
+var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+ts.src = "https://top-fwz1.mail.ru/js/code.js";
+var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+f();
+})(document, window, "tmr-code");
+</script>
+<style>
+body{margin:0;min-height:100vh;display:grid;place-items:center;background:#1c1830;color:#f5efe3;font:17px/1.5 Georgia,"PT Serif",serif;text-align:center}
+main{padding:32px 20px;max-width:420px}
+img{width:96px;height:96px;border-radius:24px}
+h1{font-size:24px;font-weight:normal;margin:18px 0 8px}
+p{margin:0 0 24px;color:#cfc6dd}
+a.btn{display:inline-block;background:#f0c46a;color:#1c1830;text-decoration:none;padding:14px 28px;border-radius:999px;font:600 17px/1 system-ui,sans-serif}
+</style>
+</head>
+<body>
+<main>
+<img src="icon-128.png" alt="">
+<h1>Открываем вашу сказку…</h1>
+<p>Сейчас откроется Telegram. Если этого не случилось, нажмите кнопку.</p>
+<a class="btn" id="go" href="https://t.me/Skazka_segodnya_bot?start=p_vk">Открыть в Telegram</a>
+</main>
+<script>
+(function(){
+  var q = new URLSearchParams(location.search);
+  var tail = (q.get('a') || '').toLowerCase().replace(/[^a-z0-9_]/g, '').slice(0, 40);
+  var start = 'p_vk' + (tail ? '_' + tail : '');
+  var web = 'https://t.me/Skazka_segodnya_bot?start=' + start;
+  var app = 'tg://resolve?domain=Skazka_segodnya_bot&start=' + start;
+  document.getElementById('go').href = web;
+  // Сначала приложение Telegram, через секунду страница t.me как запасной путь.
+  setTimeout(function(){ location.href = app; }, 150);
+  setTimeout(function(){ location.href = web; }, 1300);
+})();
+</script>
+</body>
+</html>
